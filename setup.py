@@ -1,11 +1,10 @@
 from setuptools import setup ,find_packages
 
-#from typing import List
+from typing import List
 
-def get_requirements()->list[str]:
-    requirement_list = list[str] = []
+def get_requirements()->List[str]:
+    requirement_list : List[str] = []
     return requirement_list
-
 
 
 setup(
