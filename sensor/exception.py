@@ -7,7 +7,7 @@ def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
     filename = exc_tb.tb_frame.f_code.co_filename
 
-    error_message = "error occured and the file name is[{0}] and the linenumber is [{1}] and error is [{2}]".fromat(filename,exc_tb.tb_lineno,str(error))
+    error_message = "error occured and the file name is[{0}] and the linenumber is [{1}] and error is [{2}]".format(filename,exc_tb.tb_lineno,str(error))
 
     return error_message
 
