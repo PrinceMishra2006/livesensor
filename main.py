@@ -13,6 +13,6 @@ def test_exception():
 
 if __name__ == "__main__":
     try:
-        pass
+        test_exception() 
     except Exception as e:
         print(e)
