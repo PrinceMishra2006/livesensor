@@ -1,0 +1,6 @@
+data_ingestion_config:
+  collection_name: sensor_collection
+  feature_store_file_path: artifacts/data_ingestion/feature_store.csv
+  training_file_path: artifacts/data_ingestion/train.csv
+  testing_file_path: artifacts/data_ingestion/test.csv
+  train_test_split_ratio: 0.2
